@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* JSH Scroll 框架级样式 */
+.jsh_scroll{position: relative;overflow: hidden;-moz-user-scroll: none;-webkit-user-scroll: none;user-scroll: none;border:1px solid #3099e3;}
+.jsh_scroll_content{position: absolute;top: 0;left: 0;line-height:30px;font-size:18px;font-family:'microsoft yahei';}
+.jsh_scroll_bar{position: absolute;top: 0;right: 0;}
+.jsh_scroll_bar_content{position: absolute;top: 22px;left: 0;background-color: #e6e7e7;}
+.jsh_scroll_bar_top{cursor: pointer;position: absolute;top: 0;left: 0;background-color:#18a9ec;}
+.jsh_scroll_bar_bottom{cursor: pointer;position: absolute;bottom: 0;left: 0;background-color:#18a9ec;}
+.jsh_scroll_bar_btn{cursor: pointer;position: relative;top: 0;left: 0;border-radius:10px;background-color:#18a9ec;}
+
+
+/*  用户定义 */
+.scroll_bar{float: left;width: 500px;height: 268px;margin: 100px 0 0 200px;}
+.scroll_cotent{width: 478px;}
+.scrollBar{width: 22px;height: 268px;}
+.scrollTop{width: 22px;height: 22px;}
+.scrollScroll{width: 22px;height: 224px;}
+.ctent{width: 22px;height: 22px;}
+.scrollBottom{width: 22px;height: 22px;}
+
+.scroll_bar1{float: left;width: 600px;height: 800px;margin: 100px 0 0 200px;}
+.scroll_cotent1{width: 578px;}
+.scrollBar1{width: 22px;height: 800px;}
+.scrollTop{width: 22px;height: 22px;}
+.scrollScroll1{width: 22px;height: 756px;}
+.ctent{width: 22px;height: 22px;}
+.scrollBottom{width: 22px;height: 22px;}
